@@ -1,0 +1,75 @@
+/* Whole page */
+:root {
+    /* Same as <html>, but higher specificity */
+    --primary-color: #5aade0;
+    --secondary-color: #5fb7ed;
+    --button-color: #407ca1;
+    --background-color: #fdebe3;
+    --footer-color: #274b61;
+    --text-color: #5aade0;
+}
+
+* {
+    /* A wildcard that select all eles within that portion of the DOM. */
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--secondary-color);
+    color: var(--text-color);
+    font: 16px;
+    height: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Media Queries/Responsive */
+@media only screen and (min-width: 720px) and (max-width: 1080px) {
+}
+
+/* Header */
+header {
+    background: var(--background-color);
+    width: 100%;
+    padding: 0 2em;
+}
+
+h1 {
+    color: var(--primary-color);
+    margin: 0 0 1em 0;
+    padding: 1em 0 0 0;
+}
+
+#note {
+    line-height: 2em;
+}
+
+/* Main */
+main {
+    width: 100%;
+    display: grid;
+    grid-template-areas: "canvas menu";
+}
+
+canvas {
+    grid-area: canvas;
+    background: #eee;
+    margin: 0 auto;
+}
+
+#game_options {
+    grid-area: menu;
+    background: purple;
+    line-height: 2em;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: var(--footer-color);
+    width: 100%;
+    height: 5em;
+    margin-top: 5em;
+    padding: 2em;
+    text-align: right;
+}
