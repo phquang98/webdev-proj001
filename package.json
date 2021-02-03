@@ -1,30 +1,23 @@
 {
-    "name": "Webdev_Project001",
-    "version": "1.0.0",
-    "description": "A static website that let you play ball-break-brick game.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/phquang98/Webdev_Project001.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/phquang98/Webdev_Project001/issues"
-    },
-    "homepage": "https://github.com/phquang98/Webdev_Project001#readme",
-    "devDependencies": {
-        "eslint": "^6.1.0",
-        "eslint-config-airbnb-base": "^14.0.0",
-        "eslint-config-node": "^4.0.0",
-        "eslint-config-prettier": "^6.1.0",
-        "eslint-plugin-import": "^2.18.2",
-        "eslint-plugin-node": "^9.1.0",
-        "eslint-plugin-prettier": "^3.1.0",
-        "prettier": "^1.18.2"
-    }
+  "name": "webdev_project001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server-on": "json-server --watch fakedb.json --port 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phquang98/webdev_project001.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phquang98/webdev_project001/issues"
+  },
+  "homepage": "https://github.com/phquang98/webdev_project001#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
 }

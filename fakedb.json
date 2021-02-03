@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Post One",
+      "body": "This is the post body",
+      "publishedAt": "03/02/2021"
+    },
+    {
+      "id": "2",
+      "title": "Post Two",
+      "body": "This is the post body",
+      "publishedAt": "03/02/2021"
+    },
+    {
+      "id": "3",
+      "title": "Post Three",
+      "body": "This is the post body",
+      "publishedAt": "03/02/2021"
+    },
+    {
+      "id": "5",
+      "title": "Post One",
+      "body": "This is the post body",
+      "publishedAt": "03/02/2021"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "johndoe@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "Jane Dean",
+      "email": "janedean@gmail.com"
+    }
+  ]
+}
