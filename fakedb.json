@@ -3,13 +3,13 @@
     {
       "id": "1",
       "title": "Post One",
-      "body": "This is the post body",
+      "body": "Changing",
       "publishedAt": "03/02/2021"
     },
     {
       "id": "2",
       "title": "Post Two",
-      "body": "This is the post body",
+      "body": "OMFG HAX ON",
       "publishedAt": "03/02/2021"
     },
     {
@@ -17,18 +17,12 @@
       "title": "Post Three",
       "body": "This is the post body",
       "publishedAt": "03/02/2021"
-    },
-    {
-      "id": "5",
-      "title": "Post One",
-      "body": "This is the post body",
-      "publishedAt": "03/02/2021"
     }
   ],
   "users": [
     {
       "id": "1",
-      "name": "John Doe",
+      "name": "John Smith",
       "email": "johndoe@gmail.com"
     },
     {

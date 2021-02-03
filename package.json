@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server-on": "json-server --watch fakedb.json --port 5000"
+    "server-on": "json-server --watch fakedb.json --port 5000 --middlewares ./middlewares/range.js",
+    "start-client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server-on\" \"npm run start-client\""
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,10 @@
   },
   "homepage": "https://github.com/phquang98/webdev_project001#readme",
   "dependencies": {
-    "json-server": "^0.16.3"
+    "@material-ui/core": "^4.11.3",
+    "concurrently": "^5.3.0",
+    "json-server": "^0.16.3",
+    "ra-data-simple-rest": "^3.10.4",
+    "react-admin": "^3.12.0"
   }
 }
